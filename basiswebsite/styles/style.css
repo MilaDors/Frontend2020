@@ -1,0 +1,130 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  border: solid 0.05em lightgray;
+}
+
+li{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  display: inline-block;
+}
+
+img.align-left{
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-width: 500px;
+  max-height: 540px;;
+}
+
+img.align-right{
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-width: 100px;
+  min-height: 140px;
+  max-width: 500px;
+  max-height: 540px;
+}
+
+img.NikeS{
+  float: left;
+  max-width: 500px;
+  max-height: 540px;
+}
+
+img.BruutS{
+  float: right;
+  max-width: 400px;
+  max-height: 440px;
+}
+
+#NikeS{
+  position: relative;
+}
+
+#NikeS h2{
+  position: absolute;
+  bottom: 3em;
+  left: 3em;
+  margin: 0;
+  padding: 1em;
+  background-color: white;
+  color: black;
+  font-size: 1em;
+  min-width: 9em;
+  min-height: 3em;
+}
+
+#NikeS p{
+  color: white;
+  bottom: 10em;
+  left: 3em;
+}
+
+#NikeS h3{
+  color: white;
+  bottom: 7em;
+  left: 3em;
+}
+
+#BruutS{
+  position: relative;
+}
+
+#BruutS h2{
+  position: absolute;
+  bottom: 3em;
+  right: 3em;
+  margin: 0;
+  padding: 1em;
+  background-color: black;
+  color: white;
+  font-size: 1em;
+  min-width: 9em;
+  min-height: 3em;
+}
+
+#NikeF{
+  position: relative;
+}
+
+#NikeF h2{
+  position: absolute;
+  bottom: 3em;
+  left: 3em;
+  margin: 0;
+  padding: 1em;
+  background-color: white;
+  color: black;
+  font-size: 1em;
+  min-width: 9em;
+  min-height: 3em;
+}
+
+img.NikeF{
+  float: left;
+  max-width: 450px;
+  max-height: 500px;
+}
+
