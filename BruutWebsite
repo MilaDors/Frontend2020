@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title> bruut.nl</title>
+	
+	<link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<script src="scripts/script.js"></script>
+
+	
+	<header>
+		<section class="nav">
+			<img src="images/menu.png" alt="menu" class="MenuKnop"> 
+			<img src="images/logo.png" alt="logo" class="Logo">
+			<img src="images/heart.png" alt="heart" class="Favo">
+			<img src="images/buy.png" alt="buy" class="Winkelmand">
+		</section>
+
+		<section class="zoeken">
+			<input type="text" name="zoek" value placeholder="Zoeken..."
+			class="Zoek" img src="images/search.png" >
+		</section>
+	</header>
+
+	<main>
+	
+	<section class="Headline">
+		    <p> Available now </p>
+		    <h2> Bruut 'Gone for Today' </h2>
+		
+			<div class="Gone"></div>
+			<button class="ShopGone" title="Shop nu"> Shop nu</button>
+		    <img src="images/bruut9.jpeg" alt="actie1" class="GoneImg" width="375px"
+		     height="375px">
+		</div>
+	</section>
+
+	<section class="carousel">
+      <div id="Slide">
+		  <button class="Terug">&lt;</button>
+	  </div>
+	  <img src="images/bruut9.jpeg" alt="GFT" class="GoneImg">
+	  <p><span class="HuidigFotoNmr"> Huidig </span>/<span class="LaatsteFotoNmr"
+	  >aantal </span> </p>
+	  <ul class="thumbnail"></ul>
+	  <button class="Vooruit">&lt;</button>
+	</section>
+	
+	
+	<h2> Populaire producten </h2>
+	<section class="Populair">
+	
+			<img src="images/nike1.jpeg" alt="Populair1" class="Nike1" width="165px"
+			height="125px">
+
+			<img src="images/nike2.jpeg" alt="Populair2" class="Nike2" width="165px"
+			height="125px"> 
+	</section>
+
+	<section class="PopulairH">
+		<h2> Nike </h2>
+		<h3> Nike </h3>
+	</section>
+
+	<section class="PopulairP">
+		<p> Air Force 1 Premium Red Bark Sail Earth University Red </p>
+		<p> Air Force 1 '07 LV8 White Black Pure Platinum </p>
+	</section>
+
+	<section class="NikeFall">
+		<p> Fall/Winter 20202 clothing collection</p>
+		<h2> Nike  </h2>
+		
+		<button class="ShopNikeF" title="shop nu"> Shop nu</button>
+		<img src="images/bruut5.jpeg" alt="NikeFall" class="NikeF" width="375px"
+		height="375px">
+	</section>
+	
+	<section class="NikeTrui">	
+		<img src="images/Nikef1.jpeg" alt="NikeF1" class="NikeF1" width="150px"
+		height="125px">
+
+		<img src="images/Nikef2.jpeg" alt="NikeF2" class="NikeF2" width="150px"
+		height="125px">	
+	</section>
+
+	<section class="NikeH">
+		<h2> Nike </h2>
+		<h3> Nike </h3>
+	</section>
+
+	<section class="NikeP">
+		<p> NSW Sportswear Club Crewneck Opti Yellow White </p>
+		<p> NSW Club Crewneck Midnight Navy</p>
+	</section>
+	
+	<section class="NikeSweat">
+		<img src="images/nike3.jpg" alt="Niketrui" class="NikeF3" width="150px"
+		height="125px">
+
+		<img src="images/nike4.jpg" alt="NikeSweater" class="NikeF4" width="150px"
+		height="125px">
+	</section>
+
+	<section class="NikeH2">
+		<h2> Nike </h2>
+		<h3> Nike</h3>
+	</section>
+
+	<section class="NikeP2">
+		<p> NSW Club Crewneck Grey Heather White </p>
+		<p> NSW Club Fleece Hoodie Charcoal Heather Anthracite White </p>
+	</section>
+
+	<section class="Blog1">
+		<h2> Blog </h2>
+		<h3> Bekijk alle artikelen </h3>
+		<img src="images/blog1.jpeg" alt="Chinatown" class="BlogChina" width="375px"
+		height="175x">
+		<p> New In: Chinatown Market </p>
+		<a href="Shop.html"> Lees meer </a>
+	</section>
+
+	<section class="Blog2">
+		<img src="images/blog2.jpeg" alt="Reception" class="BloggR" width="375px"
+		height="175px">
+		<p> New In: Reception </p>
+		<h4> Lees meer </h4>
+	</section>
+	
+</main>
+</body>
+	
+</html>
