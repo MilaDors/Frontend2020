@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="nl">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title> bruut.nl</title>
+	
+	<link href="styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<script src="scripts/script.js"></script>
+
+	
+	<header>
+		<section class="nav">
+			<img src="images/menu.png" alt="menu" class="MenuKnop"> 
+			<img src="images/logo.png" alt="logo" class="Logo">
+			<img src="images/heart.png" alt="heart" class="Favo">
+			<img src="images/buy.png" alt="buy" class="Winkelmand">
+		</section>
+
+		<section class="zoeken">
+			<input type="text" name="zoek" value placeholder="Zoeken..."
+			class="Zoek" img src="images/search.png" >
+		</section>
+	</header>
+
+	<main>
+	
+	<section class="Headline">
+		    <p> Available now </p>
+		    <h2> Bruut 'Gone for Today' </h2>
+		
+			<div class="Gone"></div>
+			<button class="ShopGone" title="Shop nu"> Shop nu</button>
+		    <img src="images/bruut9.jpeg" alt="actie1" class="GoneImg" width="375px"
+		     height="375px">
+		</div>
+	</section>
+
+	<section class="carousel">
+      <div id="Slide">
+		  <button class="Terug">&lt;</button>
+	  </div>
+	  <img src="images/bruut9.jpeg" alt="GFT" class="GoneImg">
+	  <p><span class="HuidigFotoNmr"> Huidig </span>/<span class="LaatsteFotoNmr"
+	  >aantal </span> </p>
+	  <ul class="thumbnail"></ul>
+	  <button class="Vooruit">&lt;</button>
+	</section>
+	
+	
+	<h2> Populaire producten </h2>
+	<section class="Populair">
+	
+			<img src="images/nike1.jpeg" alt="Populair1" class="Nike1" width="165px"
+			height="125px">
+
+			<img src="images/nike2.jpeg" alt="Populair2" class="Nike2" width="165px"
+			height="125px"> 
+	</section>
+
+	<section class="PopulairH">
+		<h2> Nike </h2>
+		<h3> Nike </h3>
+	</section>
+
+	<section class="PopulairP">
+		<p> Air Force 1 Premium Red Bark Sail Earth University Red </p>
+		<p> Air Force 1 '07 LV8 White Black Pure Platinum </p>
+	</section>
+
+	<section class="NikeFall">
+		<p> Fall/Winter 20202 clothing collection</p>
+		<h2> Nike  </h2>
+		
+		<button class="ShopNikeF" title="shop nu"> Shop nu</button>
+		<img src="images/bruut5.jpeg" alt="NikeFall" class="NikeF" width="375px"
+		height="375px">
+	</section>
+	
+	<section class="NikeTrui">	
+		<img src="images/Nikef1.jpeg" alt="NikeF1" class="NikeF1" width="150px"
+		height="125px">
+
+		<img src="images/Nikef2.jpeg" alt="NikeF2" class="NikeF2" width="150px"
+		height="125px">	
+	</section>
+
+	<section class="NikeH">
+		<h2> Nike </h2>
+		<h3> Nike </h3>
+	</section>
+
+	<section class="NikeP">
+		<p> NSW Sportswear Club Crewneck Opti Yellow White </p>
+		<p> NSW Club Crewneck Midnight Navy</p>
+	</section>
+	
+	<section class="NikeSweat">
+		<img src="images/nike3.jpg" alt="Niketrui" class="NikeF3" width="150px"
+		height="125px">
+
+		<img src="images/nike4.jpg" alt="NikeSweater" class="NikeF4" width="150px"
+		height="125px">
+	</section>
+
+	<section class="NikeH2">
+		<h2> Nike </h2>
+		<h3> Nike</h3>
+	</section>
+
+	<section class="NikeP2">
+		<p> NSW Club Crewneck Grey Heather White </p>
+		<p> NSW Club Fleece Hoodie Charcoal Heather Anthracite White </p>
+	</section>
+
+	<section class="Blog1">
+		<h2> Blog </h2>
+		<h3> Bekijk alle artikelen </h3>
+		<img src="images/blog1.jpeg" alt="Chinatown" class="BlogChina" width="375px"
+		height="175x">
+		<p> New In: Chinatown Market </p>
+		<a href="Shop.html"> Lees meer </a>
+	</section>
+
+	<section class="Blog2">
+		<img src="images/blog2.jpeg" alt="Reception" class="BloggR" width="375px"
+		height="175px">
+		<p> New In: Reception </p>
+		<h4> Lees meer </h4>
+	</section>
+	
+</main>
+</body>
+	
+</html>
+
+<!doctype html>
+<html lang="nl">
+
+<head> 
+    	<meta charset="UTF-8">
+	<meta name="author" content="jouw naam">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title> Bruut </title>
+    <!-- Link naar style sheet -->
+<link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+      <script src="scripts/script.js"></script>
+
+      <header>
+          <section class="nav">
+           <img src="images/menu.png" alt="menu" class="MenuKnop"> 
+           <img src="images/logo.png" alt="logo" class="Logo">
+           <img src="images/heart.png" alt="heart" class="Favo">
+           <img src="images/buy.png" alt="buy" class="Winkelmand">
+                        
+          </section>
+
+        
+            <section class="zoeken">
+
+                <input type="text" name="zoek" value placeholder="Zoeken..."
+                class="Zoek">
+        
+            </section>
+
+            <section class="head">
+                <a href="index.html"> < terug </a>
+                <h1> New In: Chinatown Market </h1>
+            </section>
+
+                <section class="Social">
+                <button class="Facebook" title="Share"> Share </button>
+                <button class="Twitter" title="Tweet"> Tweet </button>
+                <button class="Pinterest" title="Pin"> Pin </button>
+            </section>
+  
+      </header>
+    
+      <main> 
+          
+        <section class="NewIn"> 
+            <img src="images/blog1.jpeg" alt="Chinatown" class="Chinatown" width="375px"
+            height="175px">
+
+            <h2> We hebben deze week een groot aantal nieuwe spelers in de 
+                Bruut Game  en Chinatown Market just joined too!
+            </h2>
+
+            <p> Service met een glimlach is waarschijnlijk door geen enkel
+                ander merk zo letterlijk genomen. Je hebt vast wel van Chinatown
+                Market gehoord. Het merk met de famous smiley als logo is bekend 
+                van hun bijzondere designs, en out of the box items, zo verkoopt
+                dit merk zelfs hun eigen tenten. Je kunt ze ook kennen van vele collabs
+                met onder andere Crocs, Cole Haan, Converse en Puma.
+            </p>
+
+            <p> 
+                Het merk is begonnen door Michael Cherman in New York, de naam 
+                Chinatown Market komt dan ook van de bekende staat in New York,
+                en heeft verder niks te maken met de Chinese Cultuur.
+            </p>
+
+            <p> 
+                Het streetwear merk komt met de meest creatieve en lijpe items.
+                Kleding, schoenen, accessoires en zefs sport items, dit merk heeft
+                alles voor je in bedrijf.
+            </p> 
+
+            <img>
+            <p> We zijn hier dan ook enorm excited om te laten weten dat Chinatown Market
+                nu exclusief bij Bruut verkrijgbaar is! Zowel online als in store in onze 
+                winkel in Hoofddorp. We hebben op het moment 9 producten beschikbaar, en we
+                horen graag welke items jullie gaan scoren!
+            </p>
+
+            <button class="Shoppen" title="Shoppen"> Shop nu </button>
+
+        </section>
+
+        <section class=" Recent">
+
+            <h2> Recente artikelen </h2>
+
+            <img src="images/blog1.jpeg" alt="Chinatown" class="Chinatown" width="375px"
+            height="175px">
+            <h3> New In: Chinatown Market </h3>
+            <p> Door: Mila Dors</p>
+            <p> 30 September 2020 </p>
+            <h4> Lees meer </h4>
+
+            <img src="images/blog2.jpeg" alt="Reception" class="Reception" width="375px"
+            height="175px">
+            <h3> New In: Reception </h3>
+            <p> Door: Mila Dors</p>
+            <p> 29 September 2020 </p>
+            <h4> Lees meer </h4>
+
+        </section>
+
+      </main>   
+</body>
+
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+body{
+  @media (max-width: 767px);
+  background: url(images/bruut9.jpeg);
+}
+
+
+header{
+  text-align: center;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 60px;
+  align-content: space-around;
+  overflow: hidden;
+}
+
+.nav img.MenuKnop{
+  flex-grow: 1;
+  width: 1px;
+  border-right:  1px solid lightgray;
+  float: left;
+  padding-left: 3px;
+  padding-right: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  
+}
+
+.nav img.Logo{
+  flex-grow: 2;
+  width: 10px;
+  border: solid lightgray 1px;
+  float: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav img.Favo{
+  flex-grow: 1;
+  width: 1px;
+  border-left: solid lightgray  1px;
+  float: right;
+  padding-left: 40px;
+  padding-right: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav img.Winkelmand{
+  flex-grow: 1;
+  width: 1px;
+  border: none;
+  float: right;
+  padding-left: 2px;
+  padding-right: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+h1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ input{
+  border: 1px solid lightgray ;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 0px 20px;
+  width: 100%;
+  height: 50px;
+  outline: none;
+  display: inline-block;
+}
+
+.Headline{
+  position:relative;
+  width: 50%;
+  display: flex;
+}
+
+.Headline p{
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  right: 20%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px black;
+  width: 200px;
+}
+
+.Headline h2{
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  right: 10%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px black;
+  width: 400px;
+}
+
+.Headline .ShopGone{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 20%;
+  right: 20%;
+  left: 80%;
+  padding: 1em;
+  max-width: 40em;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.Headline img.GoneImg{
+  padding: 25px;
+  flex-direction: column;
+  background: linear-gradient( 0deg, white 20%, lavender 100%);
+}
+
+.Populair {
+  position: relative;
+  width: 50%;
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Populair h2{
+  font-size: 2em;
+}
+
+.Populair p{
+  font-size: 16px;
+}
+
+.Populair img.Nike1{
+  padding: 5px;
+  flex-grow: 1;
+
+}
+
+.Populair img.Nike2{
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.PopulairH{
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: gray;
+}
+
+.PopulairH h2{
+ flex-grow: 1;
+ font-size: 20px;
+ padding: 5px;
+ margin: 2px;
+}
+
+.PopulairH h3{
+  flex-grow: 1;
+  font-size: 20px;
+  padding: 5px;
+  margin: 2px;
+}
+
+.PopulairP{
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.PopulairP p{
+  margin: 2px;
+  padding-bottom: 20px;
+  flex-grow: 1;
+  width: 30px;
+}
+
+.NikeFall{
+  position: relative;
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.NikeFall p{
+  position: absolute ;
+  top: 10%;
+  left: 20%;
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 3px black;
+  width: 230px;
+}
+
+.NikeFall h2{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  width: 200px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.NikeFall .ShopNikeF{
+  position: absolute;
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+  bottom: 20%;
+  left: 20%;
+  max-width: 50em;
+  padding: 1em;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.NikeFall img.NikeF{
+  padding: 25px;
+  flex-direction: column;
+  background: linear-gradient( 0deg, white 20%, rgb(196, 225, 252) 100%);
+}
+
+.NikeTrui{
+  display: flex;
+}
+
+.NikeTrui img.NikeF1{
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.NikeTrui img.NikeF2{
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.NikeH{
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: gray;
+}
+.NikeH h2{
+  flex-grow: 1;
+  font-size: 20px;
+  margin: 2px;
+  padding: 5px;
+}
+.NikeH h3{
+  flex-grow: 1;
+  font-size: 20px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.NikeP{
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.NikeP p{
+  flex-grow: 1;
+  padding: 2px;
+  margin: 5px;
+  width: 30px
+}
+
+.NikeSweat{
+  padding: 10px;
+}
+
+.NikeH2{
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: gray;
+}
+
+.NikeH2 h2{
+  flex-grow: 1;
+  font-size: 20px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.NikeH2 h3{
+  flex-grow: 1;
+  font-size: 20px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.NikeP2{
+  display: flex;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.NikeP2 p{
+  flex-grow: 1;
+  padding: 2px;
+  margin: 5px;
+  width: 30px;
+}
+.Blog1 {
+  position: relative;
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Blog1 h2{
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px;
+  padding-left: 140px;
+  padding-top: 40px; 
+  text-align: center;
+}
+
+.Blog1 h3{
+  font-size: 18px;
+  width: 300px;
+  margin: 5px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: black underline;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.Blog1 p{
+  font-size: 18px;
+  color: rgb(89, 90, 90);
+  width: 250px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.Blog1 a{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+  padding-bottom:20px;
+}
+
+ a:hover{
+  color: red;
+  border: solid red 1px;
+  border-radius: 2px;
+}
+
+.Blog2{
+  position: relative;
+  width: 50%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Blog2 p{
+  font-size: 18px;
+  color: rgb(89, 90, 90);
+  width: 250px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.Blog2 h4{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+  text-decoration: black underline;
+}
+.zoeken a{
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+button.Facebook{
+  color: white;
+  background-color: royalblue;
+  border: solid royalblue 6px;
+  width: 8em;
+  text-align: center;
+  margin-right: 2px;
+}
+
+button.Twitter{
+  color: white;
+  background-color: lightskyblue;
+  border: solid lightskyblue 6px;
+  width: 8em;
+  text-align: center;
+  margin-left: 2px;
+}
+
+button.Pinterest{
+  color: white;
+  background-color: darkred;
+  border: solid darkred 6px;
+  width: 8em;
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 6px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.Social:nth-of-type(1) button.Facebook{
+  border-radius: 2em;
+  box-shadow: 1px 1px 2px gray;
+}
+
+.head{
+  display: flex;
+}
+
+.head a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px;
+}
+.NewIn{
+  position: relative;
+}
+
+.NewIn h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+  margin: 2px;
+}
+
+.NewIn p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+  text-align: left;
+  padding: 8px;
+  margin: 2px;
+}
+
+button.Shoppen{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgb(34, 33, 33);
+  border: solid rgb(34, 33, 33) 1px;
+  width: 6em;
+  height: 2em;
+  margin-bottom: 1em;
+  margin-left: 20em;
+}
+
+.Recent{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Recent h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 80px;
+}
+
+.Recent h3{
+  font-size: 18px;
+  color: rgb(89, 90, 90);
+  width: 250px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.Recent p{
+  font-size: 13px;
+  color: rgb(89, 90, 90);
+  width: 200px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.Recent h4{
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin: 5px;
+  text-decoration: black underline;
+}
+
+.Slide{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel img.GoneImg{
+  max-width: 37fpx;
+}
+
+
+
+// JavaScript Document
+var Fbutton
+var Fbutton = document.querySelector(".Social:nth-of-type(1) button");
+
+Fbutton.addEventListener("onclick", Verander);
+
+function Verander(){
+    Fbutton.classList.add("Social");
+}
+
